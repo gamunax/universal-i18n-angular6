@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="es" datatype="plaintext" original="ng2.template" target-language="es">
+    <body>
+      <trans-unit id="e00fde81f1d8d3a8585bc2e03445dd63ceeb3b55" datatype="html">
+        <source>Español</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/mundial/mundial.component.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      <target state="final">Español</target></trans-unit>
+      <trans-unit id="b7a5523dbaa8c03bd2b4eb2ce9dcb84d548fe7f7" datatype="html">
+        <source>Ingles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/mundial/mundial.component.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      <target state="final">Ingles</target></trans-unit>
+      <trans-unit id="460a62b10df7be8d1f74cda80047031368bde4a6" datatype="html">
+        <source>
+     La Copa Mundial de la FIFA Rusia 2018 (en ruso: Чемпионат мира по футболу Россия 2018) es la vigésima primera edición de
+    la Copa Mundial de Fútbol masculina organizada por la FIFA. Esta edición del evento se realiza en Rusia entre el 14 de junio
+    y el 15 de julio de 2018, quien consiguió los derechos de anfitrión el 2 de diciembre de 2010.1​
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/mundial/mundial.component.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      <target state="final">
+     La Copa Mundial de la FIFA Rusia 2018 (en ruso: Чемпионат мира по футболу Россия 2018) es la vigésima primera edición de
+    la Copa Mundial de Fútbol masculina organizada por la FIFA. Esta edición del evento se realiza en Rusia entre el 14 de junio
+    y el 15 de julio de 2018, quien consiguió los derechos de anfitrión el 2 de diciembre de 2010.1​
+  </target></trans-unit>
+      <trans-unit id="c16e7d2a7f8e982b0c7036b269d3f09f59dc6b42" datatype="html">
+        <source>
+     Esta es la primera Copa del Mundo que se celebrará en Europa del Este, y la undécima vez que se celebra en Europa. Por primera
+    vez, el torneo tiene lugar en dos continentes: Europa y Asia; dada la posición geográfica de una de las sedes, en este caso,
+    Ekaterimburgo.2​ Con un costo estimado de más de 14.2 mil millones de dólares, es la Copa del Mundo más cara de la historia.3​
+    Esta es la primera Copa Mundial que utiliza un Asistente de Video para Árbitros (VAR).4​
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/mundial/mundial.component.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      <target state="final">
+     Esta es la primera Copa del Mundo que se celebrará en Europa del Este, y la undécima vez que se celebra en Europa. Por primera
+    vez, el torneo tiene lugar en dos continentes: Europa y Asia; dada la posición geográfica de una de las sedes, en este caso,
+    Ekaterimburgo.2​ Con un costo estimado de más de 14.2 mil millones de dólares, es la Copa del Mundo más cara de la historia.3​
+    Esta es la primera Copa Mundial que utiliza un Asistente de Video para Árbitros (VAR).4​
+  </target></trans-unit>
+      <trans-unit id="bc1792be73c1e8198ed0a7c32cc610f88300cd2d" datatype="html">
+        <source>LISTADO DE EQUIPOS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/mundial/mundial.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      <target state="final">LISTADO DE EQUIPOS</target></trans-unit>
+      <trans-unit id="8adc0989dd17a30d2d3bd73fd1a98a3782c10d46" datatype="html">
+        <source>EQUIPOS</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/mundial/mundial.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      <target state="final">EQUIPOS</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,14 @@
+{
+    "locales": {
+        "es": true,
+        "en": false
+    },
+    "client": {
+        "command": "ng build --project=prod --aot --prod",
+        "output": "browser"
+    },
+    "server": {
+        "command": "ng run ssuniversal:server",
+        "output": "server"
+    }
+}

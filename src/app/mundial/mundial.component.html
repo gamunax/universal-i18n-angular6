@@ -1,0 +1,38 @@
+<nav>
+  <ul>
+    <li><a [routerLink]="" (click)="nav('es')" i18n>Español</a></li>
+    <li><a [routerLink]="" (click)="nav('en')" i18n>Ingles</a></li>
+  </ul>
+</nav>
+<h1>MUNDIAL RUSIA 2018</h1>
+<div class="contenedor">
+  <img src="/assets/mundial.jpg" alt="">
+  <p i18n>
+     La Copa Mundial de la FIFA Rusia 2018 (en ruso: Чемпионат мира по футболу Россия 2018) es la vigésima primera edición de
+    la Copa Mundial de Fútbol masculina organizada por la FIFA. Esta edición del evento se realiza en Rusia entre el 14 de junio
+    y el 15 de julio de 2018, quien consiguió los derechos de anfitrión el 2 de diciembre de 2010.1​
+  </p>
+  <p i18n>
+     Esta es la primera Copa del Mundo que se celebrará en Europa del Este, y la undécima vez que se celebra en Europa. Por primera
+    vez, el torneo tiene lugar en dos continentes: Europa y Asia; dada la posición geográfica de una de las sedes, en este caso,
+    Ekaterimburgo.2​ Con un costo estimado de más de 14.2 mil millones de dólares, es la Copa del Mundo más cara de la historia.3​
+    Esta es la primera Copa Mundial que utiliza un Asistente de Video para Árbitros (VAR).4​
+  </p>
+</div>
+
+
+<div class="contenedor">
+  <h2 i18n>LISTADO DE EQUIPOS</h2>
+  <table border="1">
+    <thead>
+      <th i18n>EQUIPOS</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let team of listadoTeams">        
+          <td>{{team.country}}</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+</div>

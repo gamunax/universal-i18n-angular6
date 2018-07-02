@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ssr-universal-i18n-angular6": {
+    "prod": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ssr-universal-i18n-angular6",
+            "outputPath": "dist/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ssr-universal-i18n-angular6:build"
+            "browserTarget": "prod:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ssr-universal-i18n-angular6:build:production"
+              "browserTarget": "prod:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ssr-universal-i18n-angular6:build"
+            "browserTarget": "prod:build"
           }
         },
         "test": {
@@ -95,6 +95,21 @@
         }
       }
     },
+    "ssuniversal": {
+      "root": "",
+      "sourceRoot": "src",
+      "projectType": "application",
+      "architect": {
+        "server": {
+          "builder": "@angular-devkit/build-angular:server",
+          "options": {
+            "outputPath": "dist/server",
+            "main": "src/main.server.ts",
+            "tsConfig": "src/tsconfig.server.json"
+          }
+        }
+      }
+    },
     "ssr-universal-i18n-angular6-e2e": {
       "root": "e2e/",
       "projectType": "application",
@@ -103,11 +118,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "ssr-universal-i18n-angular6:serve"
+            "devServerTarget": "prod:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ssr-universal-i18n-angular6:serve:production"
+              "devServerTarget": "prod:serve:production"
             }
           }
         },
@@ -122,6 +137,16 @@
         }
       }
     }
+    
   },
-  "defaultProject": "ssr-universal-i18n-angular6"
+  "defaultProject": "dev",
+  "schematics": {
+    "@schematics/angular:component": {
+      "prefix": "app",
+      "styleext": "css"
+    },
+    "@schematics/angular:directive": {
+      "prefix": "app"
+    }
+  }
 }
